@@ -2,6 +2,9 @@
 
 Este é um aplicativo de lista de tarefas (To-Do List) desenvolvido em Angular. O aplicativo permite aos usuários ler, adicionar, editar, excluir e marcar tarefas como concluídas. O back-end é desenvolvido em Java utilizando Spring Boot, com o banco de dados MariaDB.
 
+![image](https://github.com/filipecajado/app-to-do-front-end/assets/114086310/29009234-5f93-462f-a2f8-15ca2c385091)
+
+
 backend: https://github.com/filipecajado/app-to-do-back-end
 
 ## Funcionalidades

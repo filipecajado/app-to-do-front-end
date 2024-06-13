@@ -41,6 +41,11 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 
 1. Clone o repositório:
 
-   ```bash
+
    git clone https://github.com/filipecajado/app-to-do-front-end.git
    cd app-to-do-front-end
+
+2. Start no projeto:
+
+   ```bash
+   npm start

@@ -1,27 +1,52 @@
 # App To Do
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+Este é um aplicativo de lista de tarefas (To-Do List) desenvolvido em Angular. O aplicativo permite aos usuários ler, adicionar, editar, excluir e marcar tarefas como concluídas. O back-end é desenvolvido em Java utilizando Spring Boot, com o banco de dados MariaDB.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Adicionar Tarefa**: Permite adicionar uma nova tarefa à lista.
+- **Editar Tarefa**: Permite editar a descrição de uma tarefa existente.
+- **Excluir Tarefa**: Permite remover uma tarefa da lista.
+- **Excluir todas as tarefas**: Permite remover todas as tarefas da lista.
+- **Marcar Tarefa como Concluída**: Permite marcar/desmarcar uma tarefa como concluída.
+- **Listar Tarefas**: Permite visualizar todas as tarefas.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Front-end
 
-## Build
+- **Angular**: 
+- **HTML/SCSS**: 
+- **TypeScript**:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Back-end
 
-## Running unit tests
+- **Java**:
+- **Spring Boot**:
+- **MariaDB**: 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Pré-requisitos
 
-## Running end-to-end tests
+Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de desenvolvimento:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Node.js e npm (Node Package Manager)
+- Angular CLI
+- Java Development Kit (JDK)
+- Maven
+- MariaDB
 
-## Further help
+## Instalação
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Front-end
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/filipecajado/app-to-do-front-end.git
+   cd app-to-do-front-end
+
+
+2. Start no projeto
+
+  ```bash
+  npm start

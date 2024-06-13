@@ -51,4 +51,5 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 2. Start no projeto
 
   ```bash
+  npm install
   npm start

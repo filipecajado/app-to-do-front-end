@@ -4,6 +4,3 @@ export interface TaskEntity {
   checked: boolean;
 }
 
-export interface TaskEntityToFront extends TaskEntity{
-  isEditing?: boolean;
-}

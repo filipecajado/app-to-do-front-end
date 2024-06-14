@@ -1,5 +1,5 @@
 import { Component, DoCheck, OnInit } from '@angular/core';
-import { TaskEntity, TaskEntityToFront } from '../../domains/task-entity';
+import { TaskEntity } from '../../domains/task-entity';
 import { TaskService } from '../../services/task.service';
 import { Subject, Subscription, debounce, debounceTime, timer } from 'rxjs';
 
@@ -10,7 +10,7 @@ import { Subject, Subscription, debounce, debounceTime, timer } from 'rxjs';
 })
 export class TodoListComponent implements OnInit {
 
-  taskList: TaskEntityToFront[] = [];
+  taskList: TaskEntity[] = [];
   saveTimer: Subscription;
   private saveSubject: Subject<TaskEntity> = new Subject();
   constructor(
@@ -70,17 +70,11 @@ export class TodoListComponent implements OnInit {
     await this.service.changeChecked(task.checked, task.id);
   }
 
-
-  enableEditing(task: TaskEntityToFront) {
-    task.isEditing = true;
-  }
-
   startSaveTimer(item: TaskEntity) {
     this.saveSubject.next(item);
   }
 
-  async update(task: TaskEntityToFront) {
+  async update(task: TaskEntity) {
     await this.service.update(task);
-    task.isEditing = false;
   }
 }
